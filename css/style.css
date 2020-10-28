@@ -1,0 +1,122 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #5e4485;
+    color: #fff;
+    padding: 0.5vmin 0;
+    font-size: 1.2em;
+    border: 0;
+}
+
+.navbar-brand {
+    float: left;
+    min-height: 55px;
+    padding: 18px;
+    font-size: 1.4em;
+    color: #fff !important;
+}
+
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
+    color: #fff;
+    background-color: #5e4485;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: #c7c7c7;
+    padding: 18px;
+}
+
+.carousel-caption {
+    top: 55%;
+    transform: translateY(-55%);
+    text-transform: uppercase;
+}
+
+.carousel-caption h1 {
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.carousel {
+    margin: 20px 50px;
+}
+
+.item img {
+    opacity: 0.95;
+    width: 100% !important;
+    height: 600px !important;
+}
+
+.btn,
+.btn:focus {
+    font-size: 18px;
+    color: #fff;
+    padding: 8px 18px;
+    background: #5e4485;
+    border: 2px solid #fff;
+}
+
+.btn:hover {
+    font-size: 18px;
+    color: #fff;
+    padding: 8px 18px;
+    background: #0aa02a;
+}
+
+.buttons-position {
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    z-index: 100;
+}
+
+.buttons-position img {
+    width: 80px;
+    height: 80px;
+    padding: 1vmin;
+}
+
+section .container {
+    padding: 20px;
+}
+
+.section-1,
+.section-3 {
+    background-color: wheat;
+}
+
+footer {
+    width: 100%;
+    background: #5e4485;
+    padding: 1%;
+    color: #fff;
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar-inverse .navbar-nav li a {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        top: 35%;
+        transform: translateY(-35%);
+    }
+
+    .carousel {
+        margin: 20px 20px;
+    }
+
+    .item img {
+        opacity: 0.95;
+        width: 100% !important;
+        height: 300px !important;
+    }
+
+    .buttons-position img {
+        width: 70px;
+        height: 70px;
+        padding: 1vmin;
+    }
+}
