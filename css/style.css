@@ -1,7 +1,12 @@
+body {
+    background: #f7f7f7;
+}
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
-    background-color: #5e4485;
+    background: linear-gradient(to right,
+            #15965a, #1dbf73);
     color: #fff;
     padding: 0.5vmin 0;
     font-size: 1.2em;
@@ -20,11 +25,11 @@
 .navbar-inverse .navbar-nav .active a:focus,
 .navbar-inverse .navbar-nav .active a:hover {
     color: #fff;
-    background-color: #5e4485;
+    background-color: #1cb86f;
 }
 
 .navbar-inverse .navbar-nav li a {
-    color: #c7c7c7;
+    color: #e8e8e8;
     padding: 18px;
 }
 
@@ -54,7 +59,7 @@
     font-size: 18px;
     color: #fff;
     padding: 8px 18px;
-    background: #5e4485;
+    background: #1dbf73;
     border: 2px solid #fff;
 }
 
@@ -62,7 +67,7 @@
     font-size: 18px;
     color: #fff;
     padding: 8px 18px;
-    background: #0aa02a;
+    background: #15965a;
 }
 
 .buttons-position {
@@ -82,21 +87,27 @@ section .container {
     padding: 20px;
 }
 
-.section-1,
 .section-3 {
-    background-color: wheat;
+    background-color: #a3e5c6;
 }
 
 footer {
     width: 100%;
-    background: #5e4485;
+    background: linear-gradient(to bottom,
+            #40946c, #5f6573);
+    ;
     padding: 0.35%;
     color: #fff;
 }
 
 footer h2 {
-    background: #542f8b;
+    background: #15965a;
     padding: 1%;
+}
+
+.col-sm-6 img {
+    width: 80px;
+    height: 80px;
 }
 
 @media only screen and (max-width: 800px) {
