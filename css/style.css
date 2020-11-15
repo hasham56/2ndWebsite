@@ -21,6 +21,15 @@ body {
     color: #fff !important;
 }
 
+.brand {
+    float: left;
+    padding: 3px;
+    font-size: 1.4em;
+    color: #fff !important;
+    width: 8% !important;
+    height: 0px !important;
+}
+
 .navbar-inverse .navbar-nav .active a,
 .navbar-inverse .navbar-nav .active a:focus,
 .navbar-inverse .navbar-nav .active a:hover {
@@ -91,6 +100,23 @@ section .container {
     background-color: #ff9c77;
 }
 
+.section-3 .col-md-6 {
+    padding-bottom: 20px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.section-3 h3 {
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.section-3 .cards img {
+    width: 85% !important;
+    height: 400px !important;
+}
+
 footer {
     width: 100%;
     background: linear-gradient(to bottom,
@@ -118,6 +144,11 @@ footer h2 {
     .carousel-caption {
         top: 35%;
         transform: translateY(-35%);
+    }
+
+    .section-3 .cards img {
+        width: 85% !important;
+        height: 350px !important;
     }
 
     .carousel {
