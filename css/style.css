@@ -87,7 +87,11 @@ section .container {
     padding: 20px;
 }
 
+<<<<<<< HEAD
 .section-3 {
+=======
+.section-2 {
+>>>>>>> e406078ce2523d0689a4d1b040672ba5f57a0e88
     background-color: #ff9c77;
 }
 
