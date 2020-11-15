@@ -6,7 +6,7 @@ body {
     margin-bottom: 0;
     border-radius: 0;
     background: linear-gradient(to right,
-            #15965a, #1dbf73);
+            #e30f00, #ff6720);
     color: #fff;
     padding: 0.5vmin 0;
     font-size: 1.2em;
@@ -25,7 +25,7 @@ body {
 .navbar-inverse .navbar-nav .active a:focus,
 .navbar-inverse .navbar-nav .active a:hover {
     color: #fff;
-    background-color: #1cb86f;
+    background-color: #fa571a;
 }
 
 .navbar-inverse .navbar-nav li a {
@@ -59,7 +59,7 @@ body {
     font-size: 18px;
     color: #fff;
     padding: 8px 18px;
-    background: #1dbf73;
+    background: #e30f00;
     border: 2px solid #fff;
 }
 
@@ -67,7 +67,7 @@ body {
     font-size: 18px;
     color: #fff;
     padding: 8px 18px;
-    background: #15965a;
+    background: #ff6720;
 }
 
 .buttons-position {
@@ -88,20 +88,20 @@ section .container {
 }
 
 .section-3 {
-    background-color: #a3e5c6;
+    background-color: #ff9c77;
 }
 
 footer {
     width: 100%;
     background: linear-gradient(to bottom,
-            #40946c, #5f6573);
+            #fa571a, #5f6573);
     ;
     padding: 0.35%;
     color: #fff;
 }
 
 footer h2 {
-    background: #15965a;
+    background: #e30f00;
     padding: 1%;
 }
 
