@@ -104,19 +104,36 @@ section .container {
     padding: 20px;
 }
 
-.section-2 {
+.section-1, .section-1 h2 {
     background-color: #ff9c77;
+    border-color: #f0f0f0;
 }
 
-.section-2 h2 {
+.section-1 h2 {
+    margin-top: 30px;
+}
+
+section img {
+    padding-bottom: 10px;
+    width: 90%;
+    height: 600px;
+    margin-left: 20px;
+}
+
+section h2 {
     color: #e30f00;
     font-size: 3em;
     border-bottom-style: solid;
     border-top-style: solid;
     border-width: 4px;
-    border-color: #f0f0f0;
+    border-color: #dedede;
     padding: 8px;
-    margin: 0;
+    margin-top: 10px;
+}
+
+section h3 {
+    font-size: 1.24em;
+    margin: 0.5em;
 }
 
 footer {
@@ -167,5 +184,10 @@ footer h2 {
     .carousel-caption {
         top: 50%;
         transform: translateY(-45%);
+    }
+    
+    .section-7 iframe{
+        width: 450px;
+        height: 300px;
     }
 }
