@@ -33,6 +33,10 @@ body {
     padding: 18px;
 }
 
+.carousel {
+    padding-top: 40px;
+}
+
 .carousel-caption {
     top: 55%;
     transform: translateY(-55%);
@@ -40,7 +44,7 @@ body {
 }
 
 .carousel-caption h1 {
-    color: whitesmoke;
+    color: #ff6720;
     font-weight: bolder;
 }
 
@@ -83,12 +87,36 @@ body {
     padding: 1vmin;
 }
 
+.number {
+    color: #fa571a;
+    margin: 30px;
+    font-size: 3em;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-width: 4px;
+    border-color: #dedede;
+    padding: 8px;
+    
+}
+
 section .container {
     padding: 20px;
 }
 
 .section-2 {
     background-color: #ff9c77;
+}
+
+.section-2 h2 {
+    color: #e30f00;
+    font-size: 3em;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-width: 4px;
+    border-color: #f0f0f0;
+    padding: 8px;
+    margin: 0;
 }
 
 footer {
@@ -116,8 +144,8 @@ footer h2 {
     }
 
     .carousel-caption {
-        top: 35%;
-        transform: translateY(-35%);
+        top: 20% !important;
+        transform: translateY(-15%) !important;
     }
 
     .carousel {
@@ -134,10 +162,6 @@ footer h2 {
         width: 70px;
         height: 70px;
         padding: 1vmin;
-    }
-
-    .carousel-caption h1 {
-        display: none;
     }
 
     .carousel-caption {
