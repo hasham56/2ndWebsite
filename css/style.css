@@ -21,15 +21,6 @@ body {
     color: #fff !important;
 }
 
-.brand {
-    float: left;
-    padding: 3px;
-    font-size: 1.4em;
-    color: #fff !important;
-    width: 8% !important;
-    height: 0px !important;
-}
-
 .navbar-inverse .navbar-nav .active a,
 .navbar-inverse .navbar-nav .active a:focus,
 .navbar-inverse .navbar-nav .active a:hover {
@@ -42,6 +33,10 @@ body {
     padding: 18px;
 }
 
+.carousel {
+    padding-top: 40px;
+}
+
 .carousel-caption {
     top: 55%;
     transform: translateY(-55%);
@@ -49,7 +44,7 @@ body {
 }
 
 .carousel-caption h1 {
-    color: whitesmoke;
+    color: #ff6720;
     font-weight: bolder;
 }
 
@@ -92,6 +87,19 @@ body {
     padding: 1vmin;
 }
 
+.number {
+    color: #fa571a;
+    margin: 30px;
+    font-size: 3em;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-width: 4px;
+    border-color: #dedede;
+    padding: 8px;
+    
+}
+
 section .container {
     padding: 20px;
 }
@@ -100,21 +108,15 @@ section .container {
     background-color: #ff9c77;
 }
 
-.section-3 .col-md-6 {
-    padding-bottom: 20px;
-    padding-right: 35px;
-    padding-left: 35px;
-}
-
-.section-3 h3 {
-    padding: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.section-3 .cards img {
-    width: 85% !important;
-    height: 400px !important;
+.section-2 h2 {
+    color: #e30f00;
+    font-size: 3em;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-width: 4px;
+    border-color: #f0f0f0;
+    padding: 8px;
+    margin: 0;
 }
 
 footer {
@@ -142,13 +144,8 @@ footer h2 {
     }
 
     .carousel-caption {
-        top: 35%;
-        transform: translateY(-35%);
-    }
-
-    .section-3 .cards img {
-        width: 85% !important;
-        height: 275px !important;
+        top: 20% !important;
+        transform: translateY(-15%) !important;
     }
 
     .carousel {
@@ -165,10 +162,6 @@ footer h2 {
         width: 70px;
         height: 70px;
         padding: 1vmin;
-    }
-
-    .carousel-caption h1 {
-        display: none;
     }
 
     .carousel-caption {
