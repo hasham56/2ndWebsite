@@ -92,8 +92,7 @@ body {
     margin: 30px;
     font-size: 3em;
     font-weight: bold;
-    border-bottom-style: solid;
-    border-top-style: solid;
+    border: solid;
     border-width: 4px;
     border-color: #dedede;
     padding: 8px;
@@ -133,8 +132,7 @@ section img {
 section h2 {
     color: #fa571a;
     font-size: 3em;
-    border-bottom-style: solid;
-    border-top-style: solid;
+    border: solid;
     border-width: 4px;
     border-color: #dedede;
     padding: 8px;
