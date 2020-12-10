@@ -33,29 +33,8 @@ body {
     padding: 18px;
 }
 
-.carousel {
-    padding-top: 40px;
-}
-
-.carousel-caption {
-    top: 55%;
-    transform: translateY(-55%);
-    text-transform: uppercase;
-}
-
-.carousel-caption h1 {
-    color: #ff6720;
-    font-weight: bolder;
-}
-
-.carousel {
-    margin: 20px 50px;
-}
-
-.item img {
-    opacity: 0.95;
-    width: 100% !important;
-    height: 600px !important;
+.section-0{
+    padding-top: 50px;
 }
 
 .btn,
